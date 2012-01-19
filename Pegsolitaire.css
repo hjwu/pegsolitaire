@@ -1,0 +1,12 @@
+html{text-align:center;}
+body{position:relative;margin:0 auto;padding-top:5px;width:650px; background-color:black;}
+div#pstitle{color:white;font-size:30pt;}
+div#game{position:relative;margin:0 auto;background-image:url("icon/wood.png");}
+div#pslevel{position:relative;margin:0 auto; width:650px}
+div#prevbtn{float:left; position:relative; width:50px;}
+div#leveltxt{float:left; color:white; font-size:30pt;width:550px; height:50px; background-image:url("icon/scroller.png");}
+div#nextbtn{float:right; position:relative; width:50px;}
+div#star{float:left; position:relative; width:450px; height:100px; background-image:url("icon/starboard.png");}
+div#setting{float:right; position:relative; width:200px; height:100px;}
+div#footer{clear:both; position:relative;text-align:center;}
+div#copyright{color:white;font-size:12pt;}

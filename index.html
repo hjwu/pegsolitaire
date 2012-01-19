@@ -1,0 +1,28 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>孔明棋</title>
+	<script type="text/javascript" src="Pegsolitaire.js"></script>
+	<script type="text/javascript" src="board.js"></script>
+	<link rel="stylesheet" href="Pegsolitaire.css" type="text/css"/>
+	<link rel="shortcut icon" type="image/png" href="icon/pegsolitaire.png" />
+</head>
+<body onLoad="init()">
+	<div id="pstitle">孔明棋／Peg Solitaire</div>	
+	<div id="game"><canvas id="psGame" width="650" height="650"></canvas></div>
+	<div id="pslevel">
+		<div id="prevbtn"><img src="icon/prev1.png" onmousedown="this.src='icon/prev2.png';changeLevel(-1);" onmouseup="this.src='icon/prev1.png';"></div>
+		<div id="leveltxt">Level 1</div>
+		<div id="nextbtn"><img src="icon/next1.png" onmousedown="this.src='icon/next2.png';changeLevel(1);" onmouseup="this.src='icon/next1.png';"></div>
+	</div>
+	<div>	
+	<div id="star"><img id="rank" src=""></div>
+	<div id="setting"><img src="icon/undo1.png" onmousedown="this.src='icon/undo2.png';undo();" onmouseup="this.src='icon/undo1.png';"><img src="icon/reset1.png" onmousedown="this.src='icon/reset2.png';resetBoard();" onmouseup="this.src='icon/reset1.png';"></div>
+	</div>
+
+
+	<div id="footer"><img src="http://jsygamela.com/logo/footer.png"></div>
+	<div id="copyright">Copyright © 2011 Jhong Sheng Yuan Technology Co., Ltd. All rights reserved.</div>
+</body>
+</html>
